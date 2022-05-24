@@ -9,6 +9,7 @@ public class GameUI : MonoBehaviour
     private UIDocument _uiDoc;
     private ProgressBar _healthbar;
     private ProgressBar _manabar;
+    
 
     private void Awake()
     {
