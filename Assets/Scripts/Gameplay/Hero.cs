@@ -57,7 +57,7 @@ public class Hero : Character, IHostile
             FacingDirection();
             movementValue = leader.IsMoving ? 1 : 0f;
 
-            Gamemanager.Instance.CurrentGameMode.GetGameUI.Health = health * 100f / maxHealth;
+            
         }
         else
         {
